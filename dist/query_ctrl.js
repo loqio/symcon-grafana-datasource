@@ -51,5 +51,5 @@ var SymconDatasourceQueryCtrl = exports.SymconDatasourceQueryCtrl = function (_Q
   return SymconDatasourceQueryCtrl;
 }(_sdk.QueryCtrl);
 
-GenericDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';
+SymconDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';
 //# sourceMappingURL=query_ctrl.js.map

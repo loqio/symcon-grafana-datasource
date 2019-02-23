@@ -24,5 +24,5 @@ export class SymconDatasourceQueryCtrl extends QueryCtrl {
   }
 }
 
-GenericDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';
+SymconDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';
 
