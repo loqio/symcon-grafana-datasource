@@ -11,27 +11,27 @@ var _query_ctrl = require('./query_ctrl');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var GenericConfigCtrl = function GenericConfigCtrl() {
-  _classCallCheck(this, GenericConfigCtrl);
+var SymconConfigCtrl = function SymconConfigCtrl() {
+  _classCallCheck(this, SymconConfigCtrl);
 };
 
-GenericConfigCtrl.templateUrl = 'partials/config.html';
+SymconConfigCtrl.templateUrl = 'partials/config.html';
 
-var GenericQueryOptionsCtrl = function GenericQueryOptionsCtrl() {
-  _classCallCheck(this, GenericQueryOptionsCtrl);
+var SymconQueryOptionsCtrl = function SymconQueryOptionsCtrl() {
+  _classCallCheck(this, SymconQueryOptionsCtrl);
 };
 
-GenericQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
+SymconQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
-var GenericAnnotationsQueryCtrl = function GenericAnnotationsQueryCtrl() {
-  _classCallCheck(this, GenericAnnotationsQueryCtrl);
+var SymconAnnotationsQueryCtrl = function SymconAnnotationsQueryCtrl() {
+  _classCallCheck(this, SymconAnnotationsQueryCtrl);
 };
 
-GenericAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html';
+SymconAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html';
 
-exports.Datasource = _datasource.GenericDatasource;
-exports.QueryCtrl = _query_ctrl.GenericDatasourceQueryCtrl;
-exports.ConfigCtrl = GenericConfigCtrl;
-exports.QueryOptionsCtrl = GenericQueryOptionsCtrl;
-exports.AnnotationsQueryCtrl = GenericAnnotationsQueryCtrl;
+exports.Datasource = _datasource.SymconDatasource;
+exports.QueryCtrl = _query_ctrl.SymconDatasourceQueryCtrl;
+exports.ConfigCtrl = SymconConfigCtrl;
+exports.QueryOptionsCtrl = SymconQueryOptionsCtrl;
+exports.AnnotationsQueryCtrl = SymconAnnotationsQueryCtrl;
 //# sourceMappingURL=module.js.map

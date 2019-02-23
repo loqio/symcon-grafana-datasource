@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.GenericDatasourceQueryCtrl = undefined;
+exports.SymconDatasourceQueryCtrl = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -17,13 +17,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var GenericDatasourceQueryCtrl = exports.GenericDatasourceQueryCtrl = function (_QueryCtrl) {
-  _inherits(GenericDatasourceQueryCtrl, _QueryCtrl);
+var SymconDatasourceQueryCtrl = exports.SymconDatasourceQueryCtrl = function (_QueryCtrl) {
+  _inherits(SymconDatasourceQueryCtrl, _QueryCtrl);
 
-  function GenericDatasourceQueryCtrl($scope, $injector) {
-    _classCallCheck(this, GenericDatasourceQueryCtrl);
+  function SymconDatasourceQueryCtrl($scope, $injector) {
+    _classCallCheck(this, SymconDatasourceQueryCtrl);
 
-    var _this = _possibleConstructorReturn(this, (GenericDatasourceQueryCtrl.__proto__ || Object.getPrototypeOf(GenericDatasourceQueryCtrl)).call(this, $scope, $injector));
+    var _this = _possibleConstructorReturn(this, (SymconDatasourceQueryCtrl.__proto__ || Object.getPrototypeOf(SymconDatasourceQueryCtrl)).call(this, $scope, $injector));
 
     _this.scope = $scope;
     _this.target.target = _this.target.target || 'select metric';
@@ -31,7 +31,7 @@ var GenericDatasourceQueryCtrl = exports.GenericDatasourceQueryCtrl = function (
     return _this;
   }
 
-  _createClass(GenericDatasourceQueryCtrl, [{
+  _createClass(SymconDatasourceQueryCtrl, [{
     key: 'getOptions',
     value: function getOptions(query) {
       return this.datasource.metricFindQuery(query || '');
@@ -48,7 +48,7 @@ var GenericDatasourceQueryCtrl = exports.GenericDatasourceQueryCtrl = function (
     }
   }]);
 
-  return GenericDatasourceQueryCtrl;
+  return SymconDatasourceQueryCtrl;
 }(_sdk.QueryCtrl);
 
 GenericDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';

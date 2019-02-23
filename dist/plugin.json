@@ -1,31 +1,31 @@
 {
-  "name": "SimpleJson",
-  "id": "grafana-simple-json-datasource",
+  "name": "Symcon",
+  "id": "symcon-grafana-datasource",
   "type": "datasource",
 
   "partials": {
-    "config": "public/app/plugins/datasource/simplejson/partials/config.html"
+    "config": "public/app/plugins/datasource/symcon/partials/config.html"
   },
 
   "metrics": true,
   "annotations": true,
 
   "info": {
-    "description": "simple json datasource",
+    "description": "symcon datasource",
     "author": {
-      "name": "Grafana Labs",
-      "url": "https://grafana.com"
+      "name": "Loqio Building Intelligence",
+      "url": "https://loqio.nl"
     },
     "logos": {
       "small": "img/simpleJson_logo.svg",
       "large": "img/simpleJson_logo.svg"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
+      {"name": "GitHub", "url": "https://github.com/loqio/symcon-grafana-datasource"},
       {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
     ],
-    "version": "1.4.0",
-    "updated": "2018-06-20"
+    "version": "1.0.0",
+    "updated": "2019-02-23"
   },
 
   "dependencies": {

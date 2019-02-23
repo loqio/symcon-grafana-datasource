@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.GenericDatasource = undefined;
+exports.SymconDatasource = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15,9 +15,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var GenericDatasource = exports.GenericDatasource = function () {
-  function GenericDatasource(instanceSettings, $q, backendSrv, templateSrv) {
-    _classCallCheck(this, GenericDatasource);
+var SymconDatasource = exports.SymconDatasource = function () {
+  function SymconDatasource(instanceSettings, $q, backendSrv, templateSrv) {
+    _classCallCheck(this, SymconDatasource);
 
     this.type = instanceSettings.type;
     this.url = instanceSettings.url;
@@ -32,7 +32,7 @@ var GenericDatasource = exports.GenericDatasource = function () {
     }
   }
 
-  _createClass(GenericDatasource, [{
+  _createClass(SymconDatasource, [{
     key: 'query',
     value: function query(options) {
       var query = this.buildQueryParameters(options);
@@ -180,6 +180,6 @@ var GenericDatasource = exports.GenericDatasource = function () {
     }
   }]);
 
-  return GenericDatasource;
+  return SymconDatasource;
 }();
 //# sourceMappingURL=datasource.js.map

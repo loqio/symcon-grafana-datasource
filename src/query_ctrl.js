@@ -1,7 +1,7 @@
 import {QueryCtrl} from 'app/plugins/sdk';
 import './css/query-editor.css!'
 
-export class GenericDatasourceQueryCtrl extends QueryCtrl {
+export class SymconDatasourceQueryCtrl extends QueryCtrl {
 
   constructor($scope, $injector)  {
     super($scope, $injector);

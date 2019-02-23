@@ -1,19 +1,19 @@
-import {GenericDatasource} from './datasource';
-import {GenericDatasourceQueryCtrl} from './query_ctrl';
+import {SymconDatasource} from './datasource';
+import {SymconDatasourceQueryCtrl} from './query_ctrl';
 
-class GenericConfigCtrl {}
-GenericConfigCtrl.templateUrl = 'partials/config.html';
+class SymconConfigCtrl {}
+SymconConfigCtrl.templateUrl = 'partials/config.html';
 
-class GenericQueryOptionsCtrl {}
-GenericQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
+class SymconQueryOptionsCtrl {}
+SymconQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
-class GenericAnnotationsQueryCtrl {}
-GenericAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html'
+class SymconAnnotationsQueryCtrl {}
+SymconAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html'
 
 export {
-  GenericDatasource as Datasource,
-  GenericDatasourceQueryCtrl as QueryCtrl,
-  GenericConfigCtrl as ConfigCtrl,
-  GenericQueryOptionsCtrl as QueryOptionsCtrl,
-  GenericAnnotationsQueryCtrl as AnnotationsQueryCtrl
+  SymconDatasource as Datasource,
+  SymconDatasourceQueryCtrl as QueryCtrl,
+  SymconConfigCtrl as ConfigCtrl,
+  SymconQueryOptionsCtrl as QueryOptionsCtrl,
+  SymconAnnotationsQueryCtrl as AnnotationsQueryCtrl
 };
